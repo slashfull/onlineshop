@@ -3,22 +3,17 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<title><?= NAME_APP ?></title>
+	<title><?= NAME_APP ?> - Entrar</title>
 	<?php include "views/layouts/css.php" ?>
 	<link rel="stylesheet" href="<?= RESOURCES ?>css/styles.css">
 </head>
 <body class="bg-light">
 	<?php include "views/layouts/menu.php"; ?>
-	<?php include "views/layouts/header.php"; ?>
 
 	<div class="container">
 		<div class="row">
 			<div class="col-12">
-				<h3>Hola Mundo desde OnlineShop, listo para commit.</h3>
-				<ul class="nav nav-tabs">
-					<li class="nav-item"><a href="<?= URL ?>" class="nav-link active">Nuevos</a></li>
-					<li class="nav-item"><a href="<?= URL ?>" class="nav-link">Ofertas</a></li>
-				</ul>
+				<h3>Login de la página onlineshop.</h3>
 			</div>
 		</div>
 	</div>
